@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+ 
+  int main(){
+    char* cadena = (char*)malloc(100);
+    char* cadena1 = (char*)malloc(100);
+    printf("Por Favor esscribe la cadena\n");
+    gets(cadena);
+    int z, num, es, y, u;
+    es = 1;
+    u = 0;
+    char x = ' ';
+      z=strlen(cadena);
+      for(y=0;y<=z;y++){
+         if (isupper(cadena[y]))
+            cadena[y] = tolower(cadena[y]);
+              if(cadena[y] != x){
+                 cadena1[y] = cadena[y];
+                  y++;
+              }
+       }
+       printf("%s\n", cadena1);
+           num = strlen(cadena1);
+             printf("%d\n", num);
+                for(y=0;y<=num/2;y++){
+                  if(cadena1[y] != cadena1[numero-y-1])
+                      es = 0;
+                }
+                if(es)
+                  printf("Si en efecto es palindromo\n");
+                else
+                 printf("No es palindromo\n");
+                 free(cadena);
+                 free(cadena1);
+}

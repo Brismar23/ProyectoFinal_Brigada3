@@ -1,0 +1,52 @@
+int main(){
+    char* cadena;
+    int arreglo[][2];
+    void contar (cadena, arreglo){
+        int i=0;
+        int con;
+        int j=0;
+        int al;
+        int a=0;
+        int prueba=0;
+        int k=0;
+        printf("introducir la palabra");
+        scanf("%i",&cadena); 
+        getchar();
+        al=strlen(cadena);
+        while (i<al){
+            while (k<al){
+                if (1<>k){
+                    if(cadena[i]=cadena[k]){
+                        con=con+1;
+                        cadena[k]=o;
+                    }
+                }
+                k=k+1;
+            }
+            if (cadena[i]<>0){
+                if (con>=1){
+                    arreglo[j][1]=con+1;
+                    arreglo[j][0]=cadena[i];
+                    prueba=arreglo[j][0]
+                }
+                else{
+                    arreglo[j][1]=1;
+                    arreglo[j][0]=cadena[i]
+                }
+                j=j+1;
+                a=a+1;
+            }
+            con=0;
+            i=i+1;
+        }
+        i=0
+        while(i<a){
+            k=0;
+            while(k<2){
+                printf("%i", arreglo[i][k]);
+                k=k+1;
+            }
+            i=i+1;
+        }
+    }
+}

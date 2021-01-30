@@ -1,0 +1,95 @@
+#include<stdio.h>
+
+ int main {
+      int p, t1, s, t2, r;
+      if (t1<t2){
+      int i,j,k,d;
+      for (i=0;i<t2;i++){
+          for (j=0;j<t2;j++){
+             if (p[i]==s[j]{
+                r[k]==p[i];
+                k=k+1;
+             }
+           }
+        }
+ }
+ if (k==0){
+     printf("No existe ningún elemento repetido");
+  }
+  for (a=0;a<k;a++){
+      for (b=0;b<k;b++){
+         if(r[a]==r[b]){
+            d=b;
+            while(d<k){
+            r[d]=r[d+1];
+            d=d+1;
+          }
+           k=k-1;
+           b=b-1;
+           }
+      }
+  }
+  for(c=0;c<k;c++;){
+       printf(%d"Elemento arreglo resultado "c);
+   }
+   if (t1<t2){
+   int i,j,k,d;
+   for (i=0;i<t2;i++){
+      for (j=0;j<t2;j++){
+         if (p[i]==s[j]{
+            r[k]==p[i];
+            k=k+1;
+          }
+       }
+    }
+  }
+  if (k==0){
+   printf("No existe ningún elemento repetido");
+   }
+   for (a=0;a<k;a++){
+        for (b=0;b<k;b++){
+           if(r[a]==r[b]){
+               d=b;
+               while(d<k){
+                   r[d]=r[d+1];
+                   d=d+1;
+               }
+               k=k-1;
+               b=b-1;
+            }
+          }
+     }
+    for(c=0;c<k;c++;){
+         printf(%d"Elemento arreglo resultado "c);
+    }
+    if (t1<t2){
+    int i,j,k,d;
+    for (i=0;i<t2;i++){
+         for (j=0;j<t2;j++){
+             if (p[i]==s[j]{
+              r[k]==p[i];
+              k=k+1;
+             }
+          }
+       }
+    }
+    if (k==0){
+       printf("No existe ningún elemento repetido");
+   }
+    for (a=0;a<k;a++){
+       for (b=0;b<k;b++){
+          if(r[a]==r[b]){
+               d=b;
+               while(d<k){
+                  r[d]=r[d+1];
+                  d=d+1;
+               }
+               k=k-1;
+               b=b-1;
+             }
+         }
+      }
+      for(c=0;c<k;c++;){
+         printf(%d"Elemento arreglo resultado "c);
+      }
+}

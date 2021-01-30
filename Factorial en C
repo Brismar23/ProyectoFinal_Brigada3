@@ -1,0 +1,17 @@
+#include <stdio.h>
+   int main() {
+    int num,fac,x;
+    fac=1;
+    x=1;
+    
+    do {
+       printf(“Dame un numero”);
+        scanf(“%d”,&num);
+    } while (num <=0 );
+      while (x <= num) {
+       fac= fac * x;
+       x= x + 1;
+   }
+    printf (“%d” &fac);
+ return 0;
+}
